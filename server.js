@@ -147,7 +147,7 @@ function viewAllEmployees() {
 function addDepartment() {
     inquirer.prompt([
         {
-            name: "Name",
+            name: "dpt_name",
             type: "Input",
             message: "Please enter a new Department to add: "
         }
@@ -158,8 +158,8 @@ function addDepartment() {
             },
             function (err) {
                 if (err) throw err
-                printTable(results);
-                startPrompts();
+                console.log('\x1b[44m%s\x1b[0m', results.dpt_name + " was added successfully");
+                viewAllDepartments();
             }
         )
     })
