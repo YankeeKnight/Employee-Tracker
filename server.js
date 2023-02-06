@@ -250,7 +250,7 @@ addRole = () => {
 
                 connection.query(sql, params, (err, result) => {
                     if (err) throw err;
-                    console.log('Added ' + answer.role + " to roles.");
+                    console.log('\x1b[44m%s\x1b[0m', "Added " + answer.role + " to roles.");
 
                     viewAllRoles();
                 });
@@ -316,7 +316,7 @@ addEmployee = () => {
 
                         connection.query(sql, params, (err, result) => {
                             if (err) throw err;
-                            console.log("Employee has been added successfully.")
+                            console.log('\x1b[44m%s\x1b[0m', "Employee has been added successfully.")
 
                             viewAllEmployees();
                         });
@@ -374,7 +374,7 @@ updateEmployeeRole = () => {
 
                     connection.query(sql, params, (err, result) => {
                         if (err) throw err;
-                        console.log("Employee has been updated.");
+                        console.log('\x1b[44m%s\x1b[0m', "Employee has been updated.");
 
                         viewAllEmployees();
                     });
@@ -431,7 +431,7 @@ updateManager = () => {
 
                     connection.query(sql, params, (err, result) => {
                         if (err) throw err;
-                        console.log("Employee has been updated successfully.");
+                        console.log('\x1b[44m%s\x1b[0m', "Employee has been updated successfully.");
 
                         viewAllEmployees();
                     });
@@ -463,7 +463,7 @@ delDept = () => {
 
             connection.query(sql, dept, (err, result) => {
                 if (err) throw err;
-                console.log("Deparment has been successfully DELETED.");
+                console.log('\x1b[31m%s\x1b[0m', "Deparment has been successfully DELETED.");
                 viewAllDepartments();
             });
         });
@@ -492,7 +492,7 @@ delRole = () => {
 
             connection.query(sql, role, (err, result) => {
                 if (err) throw err;
-                console.log("This Role has been successfully DELETED.");
+                console.log('\x1b[31m%s\x1b[0m', "This Role has been successfully DELETED.");
 
                 viewAllRoles();
             });
@@ -523,7 +523,7 @@ delEmp = () => {
 
             connection.query(sql, employee, (err, result) => {
                 if (err) throw err;
-                console.log("Employee has been successfully DELETED.");
+                console.log('\x1b[31m%s\x1b[0m', "Employee has been successfully DELETED.");
 
                 viewAllEmployees();
             });
