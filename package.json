@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "chalk": "^5.2.0",
     "console-table-printer": "^2.11.1",
     "inquirer": "^8.2.4",
     "mysql2": "^3.1.0"
