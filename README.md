@@ -7,7 +7,7 @@ Challenge 12 - 2_9_23
 A Node.js command-line application that takes in information about employees and manipulates a database to store and retrieve data.
 
 ## Screenshot
-![Screenshot of Process Flow](./assets/images/screenshot.png)
+![Screenshot](./assets/images/module12screenshot.png)
 
 ## Table of Contents
 1. [Installation](#installation)
