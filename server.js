@@ -3,7 +3,7 @@ const inquirer = require('inquirer');
 const mysql = require('mysql2');
 require('dotenv').config();
 
-// dependancy for where all functions live
+// dependency for where all functions live
 const functions = require("./lib/functions.js");
 
 const connection = mysql.createConnection({
