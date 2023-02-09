@@ -17,7 +17,7 @@ A Node.js command-line application that takes in information about employees and
 5. [License](#license)
 
 ## Installation
-The user would clone the repository from GitHub and download Node. The application requires inquirer, MySQL2 and console-table-printer modules to function.
+The user would clone the repository from GitHub and download Node. The application requires inquirer, MySQL2, console-table-printer and dotenv modules to function.
 
 ## Usage
 Using your command line, choose the activity you would like to complete and you will recieve further prompts to complete your activity. Command line will advise when successful and show the updated database table.
