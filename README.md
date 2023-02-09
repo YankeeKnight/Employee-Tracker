@@ -23,7 +23,7 @@ The user would clone the repository from GitHub and download Node. The applicati
 Using your command line, choose the activity you would like to complete and you will recieve further prompts to complete your activity. Command line will advise when successful and show the updated database table.
 
 ## Walkthrough
-[Video Walkthrough Link](https://drive.google.com/file/d/14a8OyqrL1yTz0lcOzibFEf7nHMMMiOzc/view?usp=share_link)
+[Video Walkthrough Link](https://drive.google.com/file/d/1_a8lYgEO4t9n3sNg0-GbOP3xlQCksdED/view?usp=sharing)
 
 ## Tests
 N/A
