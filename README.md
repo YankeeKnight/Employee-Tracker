@@ -1,5 +1,5 @@
 # Employee-Tracker
-Challenge 12 - 2_9_23
+SQL
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
